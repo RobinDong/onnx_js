@@ -2,6 +2,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "inkjet": "^3.0.0",
-    "onnxruntime-node": "^1.15.1"
+    "onnxruntime-node": "^1.15.1",
+    "package.json": "^2.0.1"
   }
 }
