@@ -48,7 +48,7 @@ async function main() {
 
   console.log("Start");
 
-  inkjet.decode(fs.readFileSync("./bluejay.jpg"), function(err, decoded) {
+  inkjet.decode(fs.readFileSync("./dabailu.jpg"), function(err, decoded) {
     if (decoded != undefined) {
       modelInput = new Float32Array(300*300*3);
       preProcess(decoded, modelInput);
